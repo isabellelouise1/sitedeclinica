@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    color: steelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    display: flexbox;
+    justify-content: left;
+    list-style-type: none;
+    align-items: normal;
+    padding: 16px;
+}
+a{
+    color: steelblue;
+    text-decoration: none;
+}
+img{
+    width: 600px;
+}
+.center{
+    text-align: center;
+}
+
+table thead tr {
+    background-color: teal;
+    color: whitesmoke;
+}
+h2{
+ color: darkblue;
+ text-align: center;
+}
+h3{
+    color: seagreen;
+}
+footer{
+    text-align: center;
+}
+    
+    
+    
+    
