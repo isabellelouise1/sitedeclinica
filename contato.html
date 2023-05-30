@@ -1,0 +1,150 @@
+<style>
+    img{
+        width: 600px;
+        height: auto;
+    }
+    .center{
+        text-align: center;
+    }
+    iframe{
+        width: 600px;
+        height: 200px;
+    }
+    ul{
+    
+    justify-content: left;
+    list-style-type: none;
+    align-items: normal;
+    padding: 16px;  
+    }
+    a{
+    color: steelblue;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+color: steelblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    text-align: center;
+}
+
+input{
+    background-color: lightsteelblue;
+    border:3px outset steelblue
+
+}
+textarea{
+    background-color: lightsteelblue;
+    border:3px outset steelblue
+}
+
+.btnenviar{
+    margin-right: 5px;
+    background-color: steelblue;
+    color: white;
+}
+.btnlimpar{
+    margin-left: 5px;
+    background-color: steelblue;
+    color: white;
+}
+h3{
+    color: seagreen;
+    
+}
+footer{
+    text-align: center;
+}
+
+</style>
+<div class="center">
+    <img src="./omegaclinicacontatoz.png">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.573295144402!2d-47.93557162238813!3d-15.826438045673752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a300320838b1f%3A0x6ce75bb17e185b22!2sSHLS%20SHLS%20716%20Bloco%20F%20-%20Asa%20Sul%2C%20Bras%C3%ADlia%20-%20DF%2C%2070390-700!5e0!3m2!1spt-BR!2sbr!4v1685456651122!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <body>
+        <nav>
+            <ul>
+                <li>
+                <a href="index.html"> Página Principal </a>
+                </li>
+    
+                <li>
+                <a href="sobre.html">Sobre a Clínica </a>
+                </li>
+    
+                <li>    
+                <a href="horario.html"> Horário de Atendimento </a>
+                </li>
+    
+                <li>
+                <a href="contato.html"> Contato </a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+<form action="formulario-contato"method="post">
+    <div>
+    <br>
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" name="nome_usuario">
+    </div>
+    <br>
+    <div>
+        <label for="email"> E-mail: </label>
+        <input type="email" id="email" name="email_usuario">
+    </div>
+    <br>
+    <div>
+        <label for="assunto"> Assunto: </label>
+        <input type="text" id="nome" name="assunto">
+    </div>
+    <br>
+    <div>
+        <label for="mensagem"> Mensagem: </label>
+        <textarea type="text" id="nome" name="mensagem" cols="25" rows="7"></textarea>
+    </div>
+    <br>
+    <div>
+        
+    </div>
+    <br> 
+    <div class="button">
+        <div>
+            <button type="submit" class="btnenviar">Enviar</button>
+            
+            <button type="reset" class="btnlimpar"> Limpar </button>
+        </div>
+    </div>
+</form>
+<br>
+<footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          
+          <p><b>Telefone:</b> +55 (61) 3567 - 3098 </p>
+          <p> <b>Email:</b> omegaclinica@gmail.com </p>
+          <p> <b>Endereço:</b> SHLS 716 bloco F - Asa Sul - Brasília - DF</p>
+        </div>
+        <br>
+        <div class="footer-links">        
+        <h3>Links úteis</h3>
+          <ul>
+            <li><a href="index.html"> Página Principal </a></li>
+            <li><a href="sobre.html">Sobre a Clínica </a></li>
+            <li><a href="horario.html">Horário de Agendamento </a></li>
+            <li><a href="contato.html"> Contato </a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Clínica Ômega. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  
